@@ -1,6 +1,6 @@
 /*
  * Author: Ogbonna Chibuoyim
- * Date Modified: 23-09-2019
+ * Date Modified: 23-09-2019-15:10
  */
 Boolean skip(int pos, int[] arr)
 {
