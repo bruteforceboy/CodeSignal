@@ -4,17 +4,18 @@
  */
 Boolean skip(int pos, int[] arr)
 {
-    for(int i=0;i<arr.length;i++)
+    int len = arr.length;
+    for(int i=0;i<len;i++)
     {
         if(i==pos)continue;
         if(i==pos-1)
         {
-            if((i+2)<arr.length&&arr[i]>=arr[i+2])
+            if((i+2)<len&&arr[i]>=arr[i+2])
                 return false;
         }
         else
         {
-            if((i+1)<arr.length&&arr[i]>=arr[i+1])
+            if((i+1)<len&&arr[i]>=arr[i+1])
                 return false;
         }
     }
