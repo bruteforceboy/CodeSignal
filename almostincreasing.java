@@ -2,7 +2,7 @@
  * Author: Ogbonna Chibuoyim
  * Date Modified: 23-09-2019-15:10
  */
-Boolean skip(int pos, int[] arr)
+boolean skip(int pos, int[] arr)
 {
     int len = arr.length;
     for(int i=0;i<len;i++)
