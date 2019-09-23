@@ -22,7 +22,7 @@ Boolean skip(int pos, int[] arr)
 }
 boolean almostIncreasingSequence(int[] sequence) {
     for(int i=1;i<sequence.length;i++)
-        if(sequence[i]<=sequence[i-1]) // skip inbalance
+        if(sequence[i]<=sequence[i-1]) // skip imbalance
             return skip(i,sequence)||skip(i-1,sequence);
     return true;
 }
